@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		132468BD2284E5CE006BE8BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 132468BC2284E5CE006BE8BB /* AppDelegate.m */; };
+		132468C02284E5CE006BE8BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132468BF2284E5CE006BE8BB /* ViewController.m */; };
+		132468C32284E5CF006BE8BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132468C12284E5CF006BE8BB /* Main.storyboard */; };
+		132468C52284E5D0006BE8BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132468C42284E5D0006BE8BB /* Assets.xcassets */; };
+		132468C82284E5D0006BE8BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132468C62284E5D0006BE8BB /* LaunchScreen.storyboard */; };
+		132468CB2284E5D0006BE8BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 132468CA2284E5D0006BE8BB /* main.m */; };
+		132468D322856B19006BE8BB /* TestModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 132468D222856B19006BE8BB /* TestModule.m */; };
+		132468E222856CB1006BE8BB /* UIViewController+GMURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 132468DB22856CB1006BE8BB /* UIViewController+GMURLRouter.m */; };
+		132468E322856CB1006BE8BB /* GMURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 132468DC22856CB1006BE8BB /* GMURLRouter.m */; };
+		132468E422856CB1006BE8BB /* BaseModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 132468DE22856CB1006BE8BB /* BaseModule.m */; };
+		132468E522856CB1006BE8BB /* GMRouterConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 132468DF22856CB1006BE8BB /* GMRouterConfig.m */; };
+		132468E622856CB1006BE8BB /* GMURLNavgation.m in Sources */ = {isa = PBXBuildFile; fileRef = 132468E022856CB1006BE8BB /* GMURLNavgation.m */; };
+		132468E922856EFD006BE8BB /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132468E822856EFD006BE8BB /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		132468B82284E5CE006BE8BB /* SafariOpenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariOpenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		132468BB2284E5CE006BE8BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		132468BC2284E5CE006BE8BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		132468BE2284E5CE006BE8BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		132468BF2284E5CE006BE8BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		132468C22284E5CF006BE8BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		132468C42284E5D0006BE8BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		132468C72284E5D0006BE8BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		132468C92284E5D0006BE8BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132468CA2284E5D0006BE8BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		132468D122856B19006BE8BB /* TestModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModule.h; sourceTree = "<group>"; };
+		132468D222856B19006BE8BB /* TestModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModule.m; sourceTree = "<group>"; };
+		132468D422856BB2006BE8BB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		132468D622856CB1006BE8BB /* UIViewController+GMURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GMURLRouter.h"; sourceTree = "<group>"; };
+		132468D722856CB1006BE8BB /* GMRouterConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMRouterConfig.h; sourceTree = "<group>"; };
+		132468D822856CB1006BE8BB /* BaseModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModule.h; sourceTree = "<group>"; };
+		132468D922856CB1006BE8BB /* GMURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMURLRouter.h; sourceTree = "<group>"; };
+		132468DA22856CB1006BE8BB /* GMURLNavgation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMURLNavgation.h; sourceTree = "<group>"; };
+		132468DB22856CB1006BE8BB /* UIViewController+GMURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GMURLRouter.m"; sourceTree = "<group>"; };
+		132468DC22856CB1006BE8BB /* GMURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMURLRouter.m; sourceTree = "<group>"; };
+		132468DD22856CB1006BE8BB /* GMRouterDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMRouterDefault.h; sourceTree = "<group>"; };
+		132468DE22856CB1006BE8BB /* BaseModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModule.m; sourceTree = "<group>"; };
+		132468DF22856CB1006BE8BB /* GMRouterConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMRouterConfig.m; sourceTree = "<group>"; };
+		132468E022856CB1006BE8BB /* GMURLNavgation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMURLNavgation.m; sourceTree = "<group>"; };
+		132468E122856CB1006BE8BB /* GMSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSingleton.h; sourceTree = "<group>"; };
+		132468E722856EFD006BE8BB /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		132468E822856EFD006BE8BB /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		132468B52284E5CE006BE8BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		132468AF2284E5CE006BE8BB = {
+			isa = PBXGroup;
+			children = (
+				132468BA2284E5CE006BE8BB /* SafariOpenApp */,
+				132468B92284E5CE006BE8BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		132468B92284E5CE006BE8BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				132468B82284E5CE006BE8BB /* SafariOpenApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		132468BA2284E5CE006BE8BB /* SafariOpenApp */ = {
+			isa = PBXGroup;
+			children = (
+				132468BB2284E5CE006BE8BB /* AppDelegate.h */,
+				132468BC2284E5CE006BE8BB /* AppDelegate.m */,
+				132468D522856CB1006BE8BB /* GMURLRouter */,
+				132468BE2284E5CE006BE8BB /* ViewController.h */,
+				132468BF2284E5CE006BE8BB /* ViewController.m */,
+				132468E822856EFD006BE8BB /* TestViewController.m */,
+				132468E722856EFD006BE8BB /* TestViewController.h */,
+				132468D122856B19006BE8BB /* TestModule.h */,
+				132468D422856BB2006BE8BB /* PrefixHeader.pch */,
+				132468D222856B19006BE8BB /* TestModule.m */,
+				132468C12284E5CF006BE8BB /* Main.storyboard */,
+				132468C42284E5D0006BE8BB /* Assets.xcassets */,
+				132468C62284E5D0006BE8BB /* LaunchScreen.storyboard */,
+				132468C92284E5D0006BE8BB /* Info.plist */,
+				132468CA2284E5D0006BE8BB /* main.m */,
+			);
+			path = SafariOpenApp;
+			sourceTree = "<group>";
+		};
+		132468D522856CB1006BE8BB /* GMURLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				132468D622856CB1006BE8BB /* UIViewController+GMURLRouter.h */,
+				132468D722856CB1006BE8BB /* GMRouterConfig.h */,
+				132468D822856CB1006BE8BB /* BaseModule.h */,
+				132468D922856CB1006BE8BB /* GMURLRouter.h */,
+				132468DA22856CB1006BE8BB /* GMURLNavgation.h */,
+				132468DB22856CB1006BE8BB /* UIViewController+GMURLRouter.m */,
+				132468DC22856CB1006BE8BB /* GMURLRouter.m */,
+				132468DD22856CB1006BE8BB /* GMRouterDefault.h */,
+				132468DE22856CB1006BE8BB /* BaseModule.m */,
+				132468DF22856CB1006BE8BB /* GMRouterConfig.m */,
+				132468E022856CB1006BE8BB /* GMURLNavgation.m */,
+				132468E122856CB1006BE8BB /* GMSingleton.h */,
+			);
+			path = GMURLRouter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		132468B72284E5CE006BE8BB /* SafariOpenApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132468CE2284E5D0006BE8BB /* Build configuration list for PBXNativeTarget "SafariOpenApp" */;
+			buildPhases = (
+				132468B42284E5CE006BE8BB /* Sources */,
+				132468B52284E5CE006BE8BB /* Frameworks */,
+				132468B62284E5CE006BE8BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafariOpenApp;
+			productName = SafariOpenApp;
+			productReference = 132468B82284E5CE006BE8BB /* SafariOpenApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		132468B02284E5CE006BE8BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "小飞鸟";
+				TargetAttributes = {
+					132468B72284E5CE006BE8BB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 132468B32284E5CE006BE8BB /* Build configuration list for PBXProject "SafariOpenApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 132468AF2284E5CE006BE8BB;
+			productRefGroup = 132468B92284E5CE006BE8BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				132468B72284E5CE006BE8BB /* SafariOpenApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		132468B62284E5CE006BE8BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132468C82284E5D0006BE8BB /* LaunchScreen.storyboard in Resources */,
+				132468C52284E5D0006BE8BB /* Assets.xcassets in Resources */,
+				132468C32284E5CF006BE8BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		132468B42284E5CE006BE8BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132468E622856CB1006BE8BB /* GMURLNavgation.m in Sources */,
+				132468E422856CB1006BE8BB /* BaseModule.m in Sources */,
+				132468E222856CB1006BE8BB /* UIViewController+GMURLRouter.m in Sources */,
+				132468C02284E5CE006BE8BB /* ViewController.m in Sources */,
+				132468E922856EFD006BE8BB /* TestViewController.m in Sources */,
+				132468E322856CB1006BE8BB /* GMURLRouter.m in Sources */,
+				132468D322856B19006BE8BB /* TestModule.m in Sources */,
+				132468CB2284E5D0006BE8BB /* main.m in Sources */,
+				132468E522856CB1006BE8BB /* GMRouterConfig.m in Sources */,
+				132468BD2284E5CE006BE8BB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		132468C12284E5CF006BE8BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				132468C22284E5CF006BE8BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		132468C62284E5D0006BE8BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				132468C72284E5D0006BE8BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		132468CC2284E5D0006BE8BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		132468CD2284E5D0006BE8BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		132468CF2284E5D0006BE8BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVSEF92325;
+				GCC_PREFIX_HEADER = SafariOpenApp/PrefixHeader.pch;
+				INFOPLIST_FILE = SafariOpenApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhph.user.SafariOpenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		132468D02284E5D0006BE8BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVSEF92325;
+				GCC_PREFIX_HEADER = SafariOpenApp/PrefixHeader.pch;
+				INFOPLIST_FILE = SafariOpenApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhph.user.SafariOpenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		132468B32284E5CE006BE8BB /* Build configuration list for PBXProject "SafariOpenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132468CC2284E5D0006BE8BB /* Debug */,
+				132468CD2284E5D0006BE8BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		132468CE2284E5D0006BE8BB /* Build configuration list for PBXNativeTarget "SafariOpenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132468CF2284E5D0006BE8BB /* Debug */,
+				132468D02284E5D0006BE8BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 132468B02284E5CE006BE8BB /* Project object */;
+}

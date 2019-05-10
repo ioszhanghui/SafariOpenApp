@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  SafariOpenApp
+//
+//  Created by 小飞鸟 on 2019/05/10.
+//  Copyright © 2019 小飞鸟. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "GMRouterDefault.h"
+
+#endif /* PrefixHeader_pch */
